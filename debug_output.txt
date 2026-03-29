@@ -1,0 +1,45 @@
+STDOUT:
+[1m
+============================ Data file validation ============================[0m
+[38;5;2m[+] Pipeline can be initialized with data[0m
+[38;5;2m[+] Corpus is loadable[0m
+[1m
+=============================== Training stats ===============================[0m
+Language: en
+Training pipeline: transformer, ner
+35 training docs
+12 evaluation docs
+[38;5;2m[+] No overlap between training and evaluation data[0m
+[38;5;1m[x] Low number of examples to train a new pipeline (35)[0m
+[1m
+============================== Vocab & Vectors ==============================[0m
+[38;5;4m[i] 347 total word(s) in the data (183 unique)[0m
+[38;5;4m[i] No word vectors present in the package[0m
+[1m
+========================== Named Entity Recognition ==========================[0m
+[38;5;4m[i] 6 label(s)[0m
+0 missing value(s) (tokens with '-' label)
+[38;5;3m[!] Low number of examples for label 'FEATURE' (36)[0m
+
+[2K[38;5;3m[!] Low number of examples for label 'PRIORITY_INDICATOR' (4)[0m
+
+[2K[38;5;3m[!] Low number of examples for label 'ACTOR' (30)[0m
+
+[2K[38;5;3m[!] Low number of examples for label 'QUALITY_ATTRIBUTE' (11)[0m
+
+[2K[38;5;3m[!] Low number of examples for label 'CONSTRAINT' (21)[0m
+
+[2K[38;5;3m[!] Low number of examples for label 'ACTION' (29)[0m
+
+[2K[38;5;2m[+] Examples without occurrences available for all labels[0m
+[38;5;2m[+] No entities consisting of or starting/ending with whitespace[0m
+[38;5;2m[+] No entities crossing sentence boundaries[0m
+[1m
+================================== Summary ==================================[0m
+[38;5;2m[+] 6 checks passed[0m
+[38;5;3m[!] 6 warnings[0m
+[38;5;1m[x] 1 error[0m
+
+STDERR:
+C:\Users\Devanshi\AppData\Local\Programs\Python\Python312\Lib\site-packages\thinc\shims\pytorch.py:114: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(self._mixed_precision):

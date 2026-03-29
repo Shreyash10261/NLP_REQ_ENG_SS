@@ -1,0 +1,594 @@
+{
+  "metadata": {
+    "title": "Software Requirements Specification",
+    "generated_at": "2026-03-29T12:02:35.176310",
+    "total_requirements": 13,
+    "total_clusters": 9
+  },
+  "requirement_groups": [
+    {
+      "group_id": "REQ-003",
+      "group_name": "Improve Login",
+      "priority": "HIGH",
+      "summary": "Users are complaining that login is too slow during peak hours. We should improve login speed.",
+      "silhouette_score": 0.1475,
+      "explanation": "Cluster 'Improve Login' contains 2 requirement(s) grouped by semantic similarity. Cluster priority: HIGH. Clustering quality (silhouette): 0.15 (weak).",
+      "requirements": [
+        {
+          "sentence": "Users are complaining that login is too slow during peak hours.",
+          "confidence": 0.5784,
+          "priority": "HIGH",
+          "priority_score": 7,
+          "priority_reasons": [
+            "User pain point identified showing negative sentiment: 'complaining, slow' (+4)",
+            "Highly requested feature ('login' mentioned 3x) (+3)"
+          ],
+          "requirement_type": "non-functional",
+          "structured": {
+            "actor": "Users",
+            "action": null,
+            "feature": "login",
+            "all_features": [
+              "login"
+            ],
+            "quality_attribute": null,
+            "constraints": [
+              "slow during peak hours"
+            ],
+            "priority_indicator": null,
+            "canonical_statement": "Users shall login slow during peak hours."
+          },
+          "entities": {
+            "actors": [
+              "Users"
+            ],
+            "actions": [],
+            "features": [
+              "login"
+            ],
+            "quality_attributes": [],
+            "constraints": [
+              "slow during peak hours"
+            ],
+            "priority_indicators": []
+          }
+        },
+        {
+          "sentence": "We should improve login speed.",
+          "confidence": 0.562,
+          "priority": "LOW",
+          "priority_score": 0.5,
+          "priority_reasons": [
+            "Medium importance due to expected requirement ('should') (+0.5)"
+          ],
+          "requirement_type": "functional",
+          "structured": {
+            "actor": null,
+            "action": "improve",
+            "feature": "login speed",
+            "all_features": [
+              "login speed"
+            ],
+            "quality_attribute": null,
+            "constraints": [],
+            "priority_indicator": null,
+            "canonical_statement": "The system shall improve login speed."
+          },
+          "entities": {
+            "actors": [],
+            "actions": [
+              "improve"
+            ],
+            "features": [
+              "login speed"
+            ],
+            "quality_attributes": [],
+            "constraints": [],
+            "priority_indicators": []
+          }
+        }
+      ]
+    },
+    {
+      "group_id": "REQ-008",
+      "group_name": "Access Audit Logs",
+      "priority": "HIGH",
+      "summary": "Admin users need urgent access to the audit logs.",
+      "silhouette_score": 0.1475,
+      "explanation": "Cluster 'Access Audit Logs' contains 1 requirement(s) grouped by semantic similarity. Cluster priority: HIGH. Clustering quality (silhouette): 0.15 (weak).",
+      "requirements": [
+        {
+          "sentence": "Admin users need urgent access to the audit logs.",
+          "confidence": 0.608,
+          "priority": "HIGH",
+          "priority_score": 6,
+          "priority_reasons": [
+            "Elevated priority due to explicit indicator: 'urgent' (+5)",
+            "High importance due to mandatory requirement ('need') (+1)"
+          ],
+          "requirement_type": "functional",
+          "structured": {
+            "actor": "Admin users",
+            "action": "access",
+            "feature": "audit logs",
+            "all_features": [
+              "audit logs"
+            ],
+            "quality_attribute": null,
+            "constraints": [],
+            "priority_indicator": "urgent",
+            "canonical_statement": "Admin users shall access audit logs."
+          },
+          "entities": {
+            "actors": [
+              "Admin users"
+            ],
+            "actions": [
+              "access"
+            ],
+            "features": [
+              "audit logs"
+            ],
+            "quality_attributes": [],
+            "constraints": [],
+            "priority_indicators": [
+              "urgent"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "group_id": "REQ-009",
+      "group_name": "Encrypted Passwords",
+      "priority": "HIGH",
+      "summary": "It is critical that user passwords are encrypted at all times.",
+      "silhouette_score": 0.1475,
+      "explanation": "Cluster 'Encrypted Passwords' contains 1 requirement(s) grouped by semantic similarity. Cluster priority: HIGH. Clustering quality (silhouette): 0.15 (weak).",
+      "requirements": [
+        {
+          "sentence": "It is critical that user passwords are encrypted at all times.",
+          "confidence": 0.615,
+          "priority": "HIGH",
+          "priority_score": 5,
+          "priority_reasons": [
+            "Elevated priority due to urgency keyword: 'critical' (+5)"
+          ],
+          "requirement_type": "non-functional",
+          "structured": {
+            "actor": "user",
+            "action": "encrypted",
+            "feature": "passwords",
+            "all_features": [
+              "passwords"
+            ],
+            "quality_attribute": null,
+            "constraints": [
+              "at all times"
+            ],
+            "priority_indicator": null,
+            "canonical_statement": "user shall encrypted passwords at all times."
+          },
+          "entities": {
+            "actors": [
+              "user"
+            ],
+            "actions": [
+              "encrypted"
+            ],
+            "features": [
+              "passwords"
+            ],
+            "quality_attributes": [],
+            "constraints": [
+              "at all times"
+            ],
+            "priority_indicators": []
+          }
+        }
+      ]
+    },
+    {
+      "group_id": "REQ-002",
+      "group_name": "Handle Payment Processing",
+      "priority": "MEDIUM",
+      "summary": "The system must handle payment processing within 2 seconds. The payment gateway must support multiple currencies.",
+      "silhouette_score": 0.1475,
+      "explanation": "Cluster 'Handle Payment Processing' contains 2 requirement(s) grouped by semantic similarity. Cluster priority: MEDIUM. Clustering quality (silhouette): 0.15 (weak).",
+      "requirements": [
+        {
+          "sentence": "The system must handle payment processing within 2 seconds.",
+          "confidence": 0.6236,
+          "priority": "MEDIUM",
+          "priority_score": 3,
+          "priority_reasons": [
+            "Contains critical time constraints: 'within 2 seconds' (+2)",
+            "High importance due to mandatory requirement ('must') (+1)"
+          ],
+          "requirement_type": "non-functional",
+          "structured": {
+            "actor": "system",
+            "action": "handle",
+            "feature": "payment processing",
+            "all_features": [
+              "payment processing"
+            ],
+            "quality_attribute": null,
+            "constraints": [
+              "within 2 seconds"
+            ],
+            "priority_indicator": null,
+            "canonical_statement": "system shall handle payment processing within 2 seconds."
+          },
+          "entities": {
+            "actors": [
+              "system"
+            ],
+            "actions": [
+              "handle"
+            ],
+            "features": [
+              "payment processing"
+            ],
+            "quality_attributes": [],
+            "constraints": [
+              "within 2 seconds"
+            ],
+            "priority_indicators": []
+          }
+        },
+        {
+          "sentence": "The payment gateway must support multiple currencies.",
+          "confidence": 0.622,
+          "priority": "LOW",
+          "priority_score": 1,
+          "priority_reasons": [
+            "High importance due to mandatory requirement ('must') (+1)"
+          ],
+          "requirement_type": "functional",
+          "structured": {
+            "actor": null,
+            "action": null,
+            "feature": "payment gateway",
+            "all_features": [
+              "payment gateway"
+            ],
+            "quality_attribute": null,
+            "constraints": [],
+            "priority_indicator": null,
+            "canonical_statement": "The system shall payment gateway."
+          },
+          "entities": {
+            "actors": [],
+            "actions": [],
+            "features": [
+              "payment gateway"
+            ],
+            "quality_attributes": [],
+            "constraints": [],
+            "priority_indicators": []
+          }
+        }
+      ]
+    },
+    {
+      "group_id": "REQ-004",
+      "group_name": "Load Dashboard",
+      "priority": "MEDIUM",
+      "summary": "The dashboard must load within 3 seconds. The search functionality should return results in under 1 second.",
+      "silhouette_score": 0.1475,
+      "explanation": "Cluster 'Load Dashboard' contains 2 requirement(s) grouped by semantic similarity. Cluster priority: MEDIUM. Clustering quality (silhouette): 0.15 (weak).",
+      "requirements": [
+        {
+          "sentence": "The dashboard must load within 3 seconds.",
+          "confidence": 0.5869,
+          "priority": "MEDIUM",
+          "priority_score": 3,
+          "priority_reasons": [
+            "Contains critical time constraints: 'within 3 seconds' (+2)",
+            "High importance due to mandatory requirement ('must') (+1)"
+          ],
+          "requirement_type": "non-functional",
+          "structured": {
+            "actor": null,
+            "action": "load",
+            "feature": "dashboard",
+            "all_features": [
+              "dashboard"
+            ],
+            "quality_attribute": null,
+            "constraints": [
+              "within 3 seconds"
+            ],
+            "priority_indicator": null,
+            "canonical_statement": "The system shall load dashboard within 3 seconds."
+          },
+          "entities": {
+            "actors": [],
+            "actions": [
+              "load"
+            ],
+            "features": [
+              "dashboard"
+            ],
+            "quality_attributes": [],
+            "constraints": [
+              "within 3 seconds"
+            ],
+            "priority_indicators": []
+          }
+        },
+        {
+          "sentence": "The search functionality should return results in under 1 second.",
+          "confidence": 0.6217,
+          "priority": "MEDIUM",
+          "priority_score": 2.5,
+          "priority_reasons": [
+            "Contains critical time constraints: 'in under 1 second' (+2)",
+            "Medium importance due to expected requirement ('should') (+0.5)"
+          ],
+          "requirement_type": "non-functional",
+          "structured": {
+            "actor": null,
+            "action": "return",
+            "feature": "search functionality",
+            "all_features": [
+              "search functionality"
+            ],
+            "quality_attribute": null,
+            "constraints": [
+              "in under 1 second"
+            ],
+            "priority_indicator": null,
+            "canonical_statement": "The system shall return search functionality in under 1 second."
+          },
+          "entities": {
+            "actors": [],
+            "actions": [
+              "return"
+            ],
+            "features": [
+              "search functionality"
+            ],
+            "quality_attributes": [],
+            "constraints": [
+              "in under 1 second"
+            ],
+            "priority_indicators": []
+          }
+        }
+      ]
+    },
+    {
+      "group_id": "REQ-006",
+      "group_name": "Mobile App Offline Support",
+      "priority": "MEDIUM",
+      "summary": "The mobile app needs to work offline without data loss.",
+      "silhouette_score": 0.1475,
+      "explanation": "Cluster 'Mobile App Offline Support' contains 1 requirement(s) grouped by semantic similarity. Cluster priority: MEDIUM. Clustering quality (silhouette): 0.15 (weak).",
+      "requirements": [
+        {
+          "sentence": "The mobile app needs to work offline without data loss.",
+          "confidence": 0.5988,
+          "priority": "MEDIUM",
+          "priority_score": 4,
+          "priority_reasons": [
+            "High risk impact word detected: 'data loss' (+4)"
+          ],
+          "requirement_type": "functional",
+          "structured": {
+            "actor": null,
+            "action": "work",
+            "feature": "mobile app",
+            "all_features": [
+              "mobile app"
+            ],
+            "quality_attribute": null,
+            "constraints": [
+              "offline without data"
+            ],
+            "priority_indicator": null,
+            "canonical_statement": "The system shall work mobile app offline without data."
+          },
+          "entities": {
+            "actors": [],
+            "actions": [
+              "work"
+            ],
+            "features": [
+              "mobile app"
+            ],
+            "quality_attributes": [],
+            "constraints": [
+              "offline without data"
+            ],
+            "priority_indicators": []
+          }
+        }
+      ]
+    },
+    {
+      "group_id": "REQ-001",
+      "group_name": "Email More Reliable",
+      "priority": "LOW",
+      "summary": "Customers should receive email notifications when orders are shipped. The checkout flow needs to be more reliable during sales events.",
+      "silhouette_score": 0.1475,
+      "explanation": "Cluster 'Email More Reliable' contains 2 requirement(s) grouped by semantic similarity. Cluster priority: LOW. Clustering quality (silhouette): 0.15 (weak).",
+      "requirements": [
+        {
+          "sentence": "Customers should receive email notifications when orders are shipped.",
+          "confidence": 0.5977,
+          "priority": "LOW",
+          "priority_score": 0.5,
+          "priority_reasons": [
+            "Medium importance due to expected requirement ('should') (+0.5)"
+          ],
+          "requirement_type": "functional",
+          "structured": {
+            "actor": "Customers",
+            "action": "receive",
+            "feature": "email",
+            "all_features": [
+              "email",
+              "notifications"
+            ],
+            "quality_attribute": null,
+            "constraints": [
+              "when orders are shipped"
+            ],
+            "priority_indicator": null,
+            "canonical_statement": "Customers shall receive email when orders are shipped."
+          },
+          "entities": {
+            "actors": [
+              "Customers"
+            ],
+            "actions": [
+              "receive"
+            ],
+            "features": [
+              "email",
+              "notifications"
+            ],
+            "quality_attributes": [],
+            "constraints": [
+              "when orders are shipped"
+            ],
+            "priority_indicators": []
+          }
+        },
+        {
+          "sentence": "The checkout flow needs to be more reliable during sales events.",
+          "confidence": 0.585,
+          "priority": "LOW",
+          "priority_score": 1,
+          "priority_reasons": [
+            "Specifies essential quality attributes: 'more reliable, reliable' (+1)"
+          ],
+          "requirement_type": "non-functional",
+          "structured": {
+            "actor": null,
+            "action": null,
+            "feature": "checkout flow",
+            "all_features": [
+              "checkout flow"
+            ],
+            "quality_attribute": "more reliable",
+            "constraints": [
+              "during sales events"
+            ],
+            "priority_indicator": null,
+            "canonical_statement": "The system shall checkout flow with more reliable requirements during sales events."
+          },
+          "entities": {
+            "actors": [],
+            "actions": [],
+            "features": [
+              "checkout flow"
+            ],
+            "quality_attributes": [
+              "more reliable",
+              "reliable"
+            ],
+            "constraints": [
+              "during sales events"
+            ],
+            "priority_indicators": []
+          }
+        }
+      ]
+    },
+    {
+      "group_id": "REQ-005",
+      "group_name": "Export Reports",
+      "priority": "LOW",
+      "summary": "Users must be able to export reports as PDF.",
+      "silhouette_score": 0.1475,
+      "explanation": "Cluster 'Export Reports' contains 1 requirement(s) grouped by semantic similarity. Cluster priority: LOW. Clustering quality (silhouette): 0.15 (weak).",
+      "requirements": [
+        {
+          "sentence": "Users must be able to export reports as PDF.",
+          "confidence": 0.6103,
+          "priority": "LOW",
+          "priority_score": 1,
+          "priority_reasons": [
+            "High importance due to mandatory requirement ('must') (+1)"
+          ],
+          "requirement_type": "functional",
+          "structured": {
+            "actor": "Users",
+            "action": "export",
+            "feature": "reports",
+            "all_features": [
+              "reports"
+            ],
+            "quality_attribute": null,
+            "constraints": [],
+            "priority_indicator": null,
+            "canonical_statement": "Users shall export reports."
+          },
+          "entities": {
+            "actors": [
+              "Users"
+            ],
+            "actions": [
+              "export"
+            ],
+            "features": [
+              "reports"
+            ],
+            "quality_attributes": [],
+            "constraints": [],
+            "priority_indicators": []
+          }
+        }
+      ]
+    },
+    {
+      "group_id": "REQ-007",
+      "group_name": "Login Page",
+      "priority": "LOW",
+      "summary": "The login page must support single sign-on via OAuth.",
+      "silhouette_score": 0.1475,
+      "explanation": "Cluster 'Login Page' contains 1 requirement(s) grouped by semantic similarity. Cluster priority: LOW. Clustering quality (silhouette): 0.15 (weak).",
+      "requirements": [
+        {
+          "sentence": "The login page must support single sign-on via OAuth.",
+          "confidence": 0.6249,
+          "priority": "LOW",
+          "priority_score": 1,
+          "priority_reasons": [
+            "High importance due to mandatory requirement ('must') (+1)"
+          ],
+          "requirement_type": "functional",
+          "structured": {
+            "actor": null,
+            "action": null,
+            "feature": "login page",
+            "all_features": [
+              "login page",
+              "single sign-on via",
+              "OAuth."
+            ],
+            "quality_attribute": null,
+            "constraints": [],
+            "priority_indicator": null,
+            "canonical_statement": "The system shall login page."
+          },
+          "entities": {
+            "actors": [],
+            "actions": [],
+            "features": [
+              "login page",
+              "single sign-on via",
+              "OAuth."
+            ],
+            "quality_attributes": [],
+            "constraints": [],
+            "priority_indicators": []
+          }
+        }
+      ]
+    }
+  ]
+}

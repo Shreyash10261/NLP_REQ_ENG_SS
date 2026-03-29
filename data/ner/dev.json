@@ -1,0 +1,50 @@
+[
+  {
+    "text": "The user must complete registration within 30 seconds.",
+    "entities": [["user", "ACTOR"], ["complete", "ACTION"], ["registration", "FEATURE"], ["within 30 seconds", "CONSTRAINT"]]
+  },
+  {
+    "text": "Admin should configure email alerts for critical events.",
+    "entities": [["Admin", "ACTOR"], ["configure", "ACTION"], ["email alerts", "FEATURE"], ["critical", "PRIORITY_INDICATOR"]]
+  },
+  {
+    "text": "Customers expect reliable order tracking in real time.",
+    "entities": [["Customers", "ACTOR"], ["reliable", "QUALITY_ATTRIBUTE"], ["order tracking", "FEATURE"], ["track", "ACTION"], ["in real time", "CONSTRAINT"]]
+  },
+  {
+    "text": "The system should encrypt data at rest and in transit.",
+    "entities": [["system", "ACTOR"], ["encrypt", "ACTION"], ["data", "FEATURE"], ["security", "QUALITY_ATTRIBUTE"], ["at rest and in transit", "CONSTRAINT"]]
+  },
+  {
+    "text": "Developers need access to debugging tools during testing.",
+    "entities": [["Developers", "ACTOR"], ["access", "ACTION"], ["debugging tools", "FEATURE"], ["during testing", "CONSTRAINT"]]
+  },
+  {
+    "text": "Users must be able to recover deleted files within 24 hours.",
+    "entities": [["Users", "ACTOR"], ["recover", "ACTION"], ["deleted files", "FEATURE"], ["within 24 hours", "CONSTRAINT"]]
+  },
+  {
+    "text": "It is urgent to resolve the login timeout issue.",
+    "entities": [["urgent", "PRIORITY_INDICATOR"], ["resolve", "ACTION"], ["login", "FEATURE"]]
+  },
+  {
+    "text": "Managers need performant report generation for quarterly reviews.",
+    "entities": [["Managers", "ACTOR"], ["performant", "QUALITY_ATTRIBUTE"], ["report generation", "FEATURE"], ["generate", "ACTION"], ["for quarterly reviews", "CONSTRAINT"]]
+  },
+  {
+    "text": "Students should submit assignments through the web portal.",
+    "entities": [["Students", "ACTOR"], ["submit", "ACTION"], ["assignments", "FEATURE"], ["web portal", "FEATURE"]]
+  },
+  {
+    "text": "The API must return paginated results under 500 milliseconds.",
+    "entities": [["API", "FEATURE"], ["return", "ACTION"], ["paginated results", "FEATURE"], ["under 500 milliseconds", "CONSTRAINT"], ["performance", "QUALITY_ATTRIBUTE"]]
+  },
+  {
+    "text": "The system must send password reset emails within 10 seconds.",
+    "entities": [["system", "ACTOR"], ["send", "ACTION"], ["password reset emails", "FEATURE"], ["within 10 seconds", "CONSTRAINT"]]
+  },
+  {
+    "text": "Users should be able to filter search results by category.",
+    "entities": [["Users", "ACTOR"], ["filter", "ACTION"], ["search results", "FEATURE"]]
+  }
+]

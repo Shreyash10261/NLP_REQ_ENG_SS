@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Environment
+.venv/
+
+# Models (large files)
+ner_model/output/
+requirement_classifier/saved_model/
+
+# Data (optional large files)
+*.spacy
+
+# OS files
+.DS_Store

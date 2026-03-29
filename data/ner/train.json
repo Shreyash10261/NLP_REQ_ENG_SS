@@ -1,0 +1,142 @@
+[
+  {
+    "text": "Users must be able to login within 2 seconds during peak hours.",
+    "entities": [["Users", "ACTOR"], ["login", "ACTION"], ["within 2 seconds", "CONSTRAINT"], ["during peak hours", "CONSTRAINT"], ["login", "FEATURE"]]
+  },
+  {
+    "text": "Admin must configure security settings within 24 hours.",
+    "entities": [["Admin", "ACTOR"], ["configure", "ACTION"], ["security settings", "FEATURE"], ["security", "QUALITY_ATTRIBUTE"], ["within 24 hours", "CONSTRAINT"]]
+  },
+  {
+    "text": "The customer should be able to search products reliably.",
+    "entities": [["customer", "ACTOR"], ["search", "ACTION"], ["products", "FEATURE"], ["reliably", "QUALITY_ATTRIBUTE"]]
+  },
+  {
+    "text": "Users must reset passwords securely.",
+    "entities": [["Users", "ACTOR"], ["reset", "ACTION"], ["passwords", "FEATURE"], ["securely", "QUALITY_ATTRIBUTE"]]
+  },
+  {
+    "text": "The system must handle payment processing within 2 seconds.",
+    "entities": [["system", "ACTOR"], ["handle", "ACTION"], ["payment processing", "FEATURE"], ["within 2 seconds", "CONSTRAINT"]]
+  },
+  {
+    "text": "Admin users need urgent access to audit logs.",
+    "entities": [["Admin users", "ACTOR"], ["access", "ACTION"], ["urgent", "PRIORITY_INDICATOR"], ["audit logs", "FEATURE"]]
+  },
+  {
+    "text": "Customers should receive notifications when orders are shipped.",
+    "entities": [["Customers", "ACTOR"], ["receive", "ACTION"], ["notifications", "FEATURE"], ["when orders are shipped", "CONSTRAINT"]]
+  },
+  {
+    "text": "The application must support login via single sign-on.",
+    "entities": [["application", "ACTOR"], ["support", "ACTION"], ["login", "FEATURE"], ["single sign-on", "FEATURE"]]
+  },
+  {
+    "text": "Users require reliable file upload during off-peak hours.",
+    "entities": [["Users", "ACTOR"], ["upload", "ACTION"], ["file upload", "FEATURE"], ["reliable", "QUALITY_ATTRIBUTE"], ["during off-peak hours", "CONSTRAINT"]]
+  },
+  {
+    "text": "It is critical that the dashboard loads within 3 seconds.",
+    "entities": [["critical", "PRIORITY_INDICATOR"], ["dashboard", "FEATURE"], ["loads", "ACTION"], ["within 3 seconds", "CONSTRAINT"]]
+  },
+  {
+    "text": "Managers should be able to generate reports on demand.",
+    "entities": [["Managers", "ACTOR"], ["generate", "ACTION"], ["reports", "FEATURE"], ["on demand", "CONSTRAINT"]]
+  },
+  {
+    "text": "The user needs a secure authentication mechanism.",
+    "entities": [["user", "ACTOR"], ["secure", "QUALITY_ATTRIBUTE"], ["authentication", "FEATURE"]]
+  },
+  {
+    "text": "Support agents must access the ticketing system in real time.",
+    "entities": [["Support agents", "ACTOR"], ["access", "ACTION"], ["ticketing system", "FEATURE"], ["in real time", "CONSTRAINT"]]
+  },
+  {
+    "text": "Developers need fast API responses under heavy load.",
+    "entities": [["Developers", "ACTOR"], ["fast", "QUALITY_ATTRIBUTE"], ["API responses", "FEATURE"], ["under heavy load", "CONSTRAINT"]]
+  },
+  {
+    "text": "End users should experience smooth navigation across all pages.",
+    "entities": [["End users", "ACTOR"], ["smooth", "QUALITY_ATTRIBUTE"], ["navigation", "FEATURE"]]
+  },
+  {
+    "text": "The admin panel must provide role-based access control.",
+    "entities": [["admin panel", "FEATURE"], ["provide", "ACTION"], ["role-based access control", "FEATURE"], ["security", "QUALITY_ATTRIBUTE"]]
+  },
+  {
+    "text": "Customers need high availability for the checkout process.",
+    "entities": [["Customers", "ACTOR"], ["high availability", "QUALITY_ATTRIBUTE"], ["checkout process", "FEATURE"]]
+  },
+  {
+    "text": "Urgent fix required for the payment gateway timeout issue.",
+    "entities": [["Urgent", "PRIORITY_INDICATOR"], ["fix", "ACTION"], ["payment gateway", "FEATURE"]]
+  },
+  {
+    "text": "Users should be able to export data as CSV within 5 seconds.",
+    "entities": [["Users", "ACTOR"], ["export", "ACTION"], ["data", "FEATURE"], ["within 5 seconds", "CONSTRAINT"]]
+  },
+  {
+    "text": "The system must provide reliable backup during maintenance windows.",
+    "entities": [["system", "ACTOR"], ["provide", "ACTION"], ["reliable", "QUALITY_ATTRIBUTE"], ["backup", "FEATURE"], ["during maintenance windows", "CONSTRAINT"]]
+  },
+  {
+    "text": "Operators need to monitor system performance in real time.",
+    "entities": [["Operators", "ACTOR"], ["monitor", "ACTION"], ["system performance", "FEATURE"], ["performance", "QUALITY_ATTRIBUTE"], ["in real time", "CONSTRAINT"]]
+  },
+  {
+    "text": "Subscribers must update their billing information securely.",
+    "entities": [["Subscribers", "ACTOR"], ["update", "ACTION"], ["billing information", "FEATURE"], ["securely", "QUALITY_ATTRIBUTE"]]
+  },
+  {
+    "text": "Analysts require fast query execution on large datasets.",
+    "entities": [["Analysts", "ACTOR"], ["fast", "QUALITY_ATTRIBUTE"], ["query execution", "FEATURE"], ["execute", "ACTION"], ["on large datasets", "CONSTRAINT"]]
+  },
+  {
+    "text": "The platform must scale to support 10000 concurrent users.",
+    "entities": [["platform", "ACTOR"], ["scale", "ACTION"], ["scalability", "QUALITY_ATTRIBUTE"], ["10000 concurrent users", "CONSTRAINT"]]
+  },
+  {
+    "text": "Teachers should access the grading module without delays.",
+    "entities": [["Teachers", "ACTOR"], ["access", "ACTION"], ["grading module", "FEATURE"], ["without delays", "CONSTRAINT"]]
+  },
+  {
+    "text": "It is high priority to fix the search indexing bug.",
+    "entities": [["high priority", "PRIORITY_INDICATOR"], ["fix", "ACTION"], ["search indexing", "FEATURE"]]
+  },
+  {
+    "text": "Patients must book appointments online.",
+    "entities": [["Patients", "ACTOR"], ["book", "ACTION"], ["appointments", "FEATURE"]]
+  },
+  {
+    "text": "The mobile app must load pages under 2 seconds on 4G networks.",
+    "entities": [["mobile app", "FEATURE"], ["load", "ACTION"], ["under 2 seconds on 4G networks", "CONSTRAINT"]]
+  },
+  {
+    "text": "Vendors need to upload invoices through the portal securely.",
+    "entities": [["Vendors", "ACTOR"], ["upload", "ACTION"], ["invoices", "FEATURE"], ["portal", "FEATURE"], ["securely", "QUALITY_ATTRIBUTE"]]
+  },
+  {
+    "text": "Moderators must review flagged content within 1 hour.",
+    "entities": [["Moderators", "ACTOR"], ["review", "ACTION"], ["flagged content", "FEATURE"], ["within 1 hour", "CONSTRAINT"]]
+  },
+  {
+    "text": "The system shall encrypt all stored passwords at rest.",
+    "entities": [["system", "ACTOR"], ["encrypt", "ACTION"], ["passwords", "FEATURE"], ["security", "QUALITY_ATTRIBUTE"], ["at rest", "CONSTRAINT"]]
+  },
+  {
+    "text": "Users must authenticate using two-factor authentication.",
+    "entities": [["Users", "ACTOR"], ["authenticate", "ACTION"], ["two-factor authentication", "FEATURE"], ["security", "QUALITY_ATTRIBUTE"]]
+  },
+  {
+    "text": "The API must respond to all requests under 500 milliseconds.",
+    "entities": [["API", "FEATURE"], ["respond", "ACTION"], ["under 500 milliseconds", "CONSTRAINT"], ["performance", "QUALITY_ATTRIBUTE"]]
+  },
+  {
+    "text": "Customer support must resolve tickets within 4 hours.",
+    "entities": [["Customer support", "ACTOR"], ["resolve", "ACTION"], ["tickets", "FEATURE"], ["within 4 hours", "CONSTRAINT"]]
+  },
+  {
+    "text": "The application should allow users to download reports in PDF format.",
+    "entities": [["application", "ACTOR"], ["download", "ACTION"], ["users", "ACTOR"], ["reports", "FEATURE"]]
+  }
+]
