@@ -29,7 +29,10 @@ class NERExtractor:
         entities = self.extract(text)
         grouped: dict[str, list[str]] = {}
         for ent in entities:
-            grouped.setdefault(ent["label"], []).append(ent["text"])
+            label = ent["label"]
+            if label == "QUALITY":
+                label = "QUALITY_ATTRIBUTE"
+            grouped.setdefault(label, []).append(ent["text"])
             
         # Refine extracted entities
         return self._refine_extracted_entities(text, grouped)
